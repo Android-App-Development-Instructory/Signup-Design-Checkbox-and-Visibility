@@ -42,7 +42,8 @@
         android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
         android:drawablePadding="10dp"/>
 
-    <EditText
+    <AutoCompleteTextView
+        android:id="@+id/bloodGroupTV"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
